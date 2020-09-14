@@ -29,13 +29,20 @@ Created: Colorib
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+@font-face {
+	font-family: LeagueGothic;
+	src: url(../fonts/leaguegothic-regular-webfont.woff);
+	font-style: normal;
+	font-weight: lighter;
+  }
 
 html,
 body {
+	
 	height: 100%;
-	font-family: "Nunito", sans-serif;
+	font-family: "LeagueGothic", sans-serif;
+	letter-spacing: 6px;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
 }
 
 h1,
@@ -244,6 +251,7 @@ ol {
 -----------------------*/
 
 .header {
+	background-color: #3E4576;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -334,7 +342,7 @@ ol {
 }
 
 .header__menu ul li a {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 700;
 	color: #ffffff;
 	display: block;
