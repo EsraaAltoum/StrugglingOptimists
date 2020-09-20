@@ -251,7 +251,7 @@ ol {
 -----------------------*/
 
 .header {
-	background-color: #3E4576;
+	background-color: #404374;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -266,7 +266,7 @@ ol {
 }
 
 .header__logo {
-	padding: 25px 0;
+	
 	display: inline-block;
 	margin-right: 250px;
 }
