@@ -1127,6 +1127,7 @@ ol {
 
 .breadcrumb__text {
 	text-align: center;
+	color: #000000;
 }
 
 .breadcrumb__text.episodes__breadcrumb__text {
@@ -1173,7 +1174,7 @@ ol {
 
 .breadcrumb__text h2 {
 	font-size: 60px;
-	color: #ffffff;
+	color: #000000;
 	font-weight: 700;
 	margin-bottom: 6px;
 }
